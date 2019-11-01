@@ -1,9 +1,13 @@
 // compress: false
-
+/* compress: true */
 @import "vars";
 //@import "fonts";
 
-	
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
 
 html{
 	font-size: 15px;
@@ -24,4 +28,4 @@ h1{
 	color:@blue-link;
 }
 
-@import "header";
+@import "blocks/header";
